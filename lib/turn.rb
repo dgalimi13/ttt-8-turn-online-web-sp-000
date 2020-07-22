@@ -41,8 +41,7 @@ valid2 = valid_move?(board,valid)
 if valid2 == false
 puts "Invalid, please enter 1-9:"
 number = gets.strip
-else
-  valid3 = move(board,number,character)
+move(board)
 end
 end
 
