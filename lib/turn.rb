@@ -40,7 +40,7 @@ valid = input_to_index(number)
 valid2 = valid_move?(board,valid)
 if valid2 == false
 turn(board)
-elsif valid2 == true
+else valid2 == true
 move(board,position)
 end
 end
