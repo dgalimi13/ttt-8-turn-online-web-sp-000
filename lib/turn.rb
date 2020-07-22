@@ -39,8 +39,7 @@ number = gets.strip
 valid = input_to_index(number)
 valid2 = valid_move?(board,valid)
 if valid2 == false
-puts "Invalid, please enter 1-9:"
-number = gets.strip
+turn(board)
 end
 end
 
