@@ -41,7 +41,7 @@ valid2 = valid_move?(board,valid)
 if valid2 == false
 turn(board)
 else valid2 == true
-move(board,position)
+move(board,valid)
 end
 end
 
